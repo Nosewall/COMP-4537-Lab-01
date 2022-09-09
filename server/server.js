@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const https = require('https');
-const apikey = "5eaeeb2cf208b7c7f906086239dcbe30";
+const apikey = require('./api');
 
 const bodyparser = require("body-parser");
 const mongoose = require('mongoose');
