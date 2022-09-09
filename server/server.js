@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const https = require('https');
 const apikey = require('./api');
-
+const cors = require('cors');
 const bodyparser = require("body-parser");
 const mongoose = require('mongoose');
 const json_cities = require('./data.js')
@@ -11,6 +11,8 @@ app.use(bodyparser.urlencoded({
   extended: true
 }));
 app.use(bodyparser.json());
+
+app.use(cors())
 
 mongoose.connect("mongodb://localhost:27017/test",
  {useNewUrlParser: true, useUnifiedTopology: true});
