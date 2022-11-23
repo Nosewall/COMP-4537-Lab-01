@@ -63,3 +63,16 @@ input[type=checkbox]
   transform: scale(2);
 
 }
+
+.pageButtons{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+}
+
+.pageButtons button{
+  width: 100px;
+}

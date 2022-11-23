@@ -15,7 +15,7 @@ function Pagination({ numberOfPages, currentPage, setCurrentPage }) {
 
 
   return (
-    <div>
+    <div className='pageButtons'>
       {(currentPage !== 1) && (<button onClick={prevPage}>prev </button>)}
 
       {
