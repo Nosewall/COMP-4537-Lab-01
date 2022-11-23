@@ -43,3 +43,23 @@ button.active {
   min-height: 250px;
   text-align: center;
 }
+
+.searchBoxes{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+
+}

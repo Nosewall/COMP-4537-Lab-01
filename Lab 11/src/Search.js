@@ -9,7 +9,7 @@ function Search({ types, checkedState, setCheckedState }) {
   }
 
   return (
-    <div>
+    <div className='searchBoxes'>
       {
         types.current.map(type => {
           return (
