@@ -30,4 +30,16 @@ button.active {
 .pokemon-list img {
   width: 100px;
   height: 100px;
+  margin: 10px;
+}
+
+.pokemon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.495);
+  min-width: 250px;
+  min-height: 250px;
+  text-align: center;
 }
