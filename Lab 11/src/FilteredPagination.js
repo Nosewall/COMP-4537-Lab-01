@@ -34,12 +34,12 @@ function FilteredPagination({ types, checkedState }) {
 
   return (
     <>
-      < Page currentPokemons={currentPokemons} currentPage={currentPage} />
-      < Pagination
+    < Pagination
         numberOfPages={numberOfPages}
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       />
+      < Page currentPokemons={currentPokemons} currentPage={currentPage} />
     </>
   )
 }

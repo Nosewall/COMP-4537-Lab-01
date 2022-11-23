@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("/public/bg40.png");
+  background-size: 100%;
 }
 
 code {
@@ -43,6 +44,7 @@ button.active {
   min-width: 250px;
   min-height: 250px;
   text-align: center;
+  background-color: #FFFFFF66
 }
 
 .searchBoxes{
@@ -72,17 +74,25 @@ input[type=checkbox]
   text-align: center;
   font-weight: 600;
   width: 100%;
+  
 }
 
 .pageButtons button{
   width: 100px;
+  box-shadow: 4px 4px 10px rgba(105, 105, 105, 0.724);
+  padding: 10px;
+  font-weight: 600;
 }
 
 .searchBox{
   display: flex;
-  margin: 5px;
+  margin: 10px;
   flex-direction: column;
   text-align: center;
   font-weight: 600;
   border: 1pk solid black;
+}
+
+.pageNumber{
+  text-align: center;
 }
