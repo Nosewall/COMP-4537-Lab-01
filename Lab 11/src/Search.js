@@ -13,11 +13,13 @@ function Search({ types, checkedState, setCheckedState }) {
       {
         types.current.map(type => {
           return (
+            <div className='searchBox' key={type}>
             <span key={type}>
               <input type="checkbox" name="pokeTypes" value={type} id={type} onChange={() => { onChangeHandle(type) }} />
               <label htmlFor={type}>{type}</label>
               <br />
             </span>
+            </div>
           )
         })
       }

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/public/bg40.png");
 }
 
 code {
@@ -28,8 +29,8 @@ button.active {
 }
 
 .pokemon-list img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin: 10px;
 }
 
@@ -75,4 +76,13 @@ input[type=checkbox]
 
 .pageButtons button{
   width: 100px;
+}
+
+.searchBox{
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 600;
+  border: 1pk solid black;
 }
